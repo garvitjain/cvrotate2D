@@ -7,7 +7,7 @@ namespace cv {
 /**
  * Rotate a matrix in 2D without cropping
  * @param src     Input matrix array to be rotated
- * @param dst     Output matrix rotated
+ * @param dst     Output matrix array rotated
  * @param degrees Angle to rotate in degrees
  */
 void rotate2D(const cv::Mat & src, cv::Mat & dst, const double degrees);
