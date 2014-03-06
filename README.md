@@ -20,3 +20,18 @@ g++ test.cpp cvrotate2D.cpp -lopencv_core -lopencv_highgui -lopencv_imgproc
 ```
 
 And then execute ```./a.out``` to obtain the file *rotated.png* with the image rotated.
+
+Example 2 (compiling the library)
+---------------------------------
+
+Compile the library:
+
+```
+g++ -O3 -Wall -shared -fpic -o libcvrotate2D.so cvrotate2D.cpp
+```
+
+Compile the test using the compiled library *cvrotate2D*:
+
+```
+g++ test.cpp -lopencv_core -lopencv_highgui -lopencv_imgproc -lcvrotate2D -I./ -L./
+```
