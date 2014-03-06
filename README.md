@@ -17,4 +17,4 @@ Compile the test with the following command:
 g++ test.cpp cvrotate2D.cpp -lopencv_core -lopencv_highgui -lopencv_imgproc
 ```
 
-And then execute ```./a.out``` to obtain a file with the image rotated.
+And then execute ```./a.out``` to obtain the file *rotated.png* with the image rotated.
