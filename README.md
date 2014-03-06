@@ -35,3 +35,5 @@ Compile the test using the compiled library *cvrotate2D*:
 ```
 g++ test.cpp -lopencv_core -lopencv_highgui -lopencv_imgproc -lcvrotate2D -I./ -L./
 ```
+
+Finally, execute ```./a.out``` to obtain the file *rotated.png* with the image rotated.
