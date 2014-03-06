@@ -6,7 +6,7 @@ The library **cvrotate2D** is an OpenCV library for rotating a matrix without cr
 How to use
 ----------
 
-*void rotate2D(InputArray **src**, OutputArray **dst**, double **degrees**)*
+<i>void rotate2D(InputArray <b>src</b>, OutputArray **dst**, double <b>degrees</b>)</i>
 
 Example
 -------
