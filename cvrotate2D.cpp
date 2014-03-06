@@ -1,4 +1,4 @@
-#include "cvRotate2D.hpp"
+#include "cvrotate2D.hpp"
 
 namespace cv {
 
