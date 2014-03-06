@@ -3,6 +3,8 @@ cvrotate2D
 
 The library **cvrotate2D** is an OpenCV library for rotating a matrix without cropping.
 
+![Overview of cvrotate2D](https://raw.github.com/milq/cvrotate2D/master/overview.png "Overview of cvrotate2D")
+
 How to use
 ----------
 
